@@ -1,0 +1,494 @@
+@media (min-width: 100px) and (max-width: 700px) {
+    .Home-page {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .navbar {
+        position: relative;
+        display: none;
+        left: 50%;
+        z-index: 3;
+        transform: translate(-50%, 0%);
+    }
+
+    .Home-page>.grid-container {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+        /* Keep it within the viewport */
+        height: 100%;
+        align-items: center;
+        width: 80vw;
+        margin-top: 100px;
+    }
+    .Home-page .designation {
+        font-weight: 300;
+    }
+    .Home-page .text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+    
+
+    .Home-page .profile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+    .Home-page .Profile-image>img {
+        height: 80vw;
+        border-radius: 30rem;
+    }
+    .Home-page .Name-prefix {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .Home-page .Name>p {
+        font-size: 30px;
+        font-weight: 500;
+        color: #6EACDA;
+    }
+
+    .Home-page .connect-btn {
+        display: inline-flex;
+        padding: 10px 10px 10px 20px;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        border: white solid 1px;
+        border-radius: 3rem;
+        text-align: center;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+
+
+
+
+
+
+    .about-Page>.grid-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+
+    .about-Page {
+        width: 100%;
+        margin-top: 50px;
+        height: 100%;
+    }
+
+    .about-Page .description {
+        font-size: 18px;
+        font-weight: 200;
+        text-align: justify;
+    }
+
+    .about-Page .education-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 1fr 1fr;
+        gap: 20px;
+    }
+    .about-Page .title {
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .about-Page .description {
+        font-size: 16px;
+        font-weight: 200;
+    }
+
+    .about-Page .education-grid .education-title {
+        grid-column: span 1;
+    }
+
+
+
+
+
+
+
+
+
+
+    .skills-page {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .skills-page .swiper {
+        width: 90vw;
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+
+    .skills-page .skills-title {
+        transform: rotate(0deg);
+        margin-bottom: 0px;
+    }
+
+    .skills-page .swiper-slide {
+        width: 200px;
+        height: 300px;
+        background-color: #03346E;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden;
+        border-radius: 2rem;
+    }
+
+    .skills-page .grid-container {
+        display: grid;
+        margin-top: 12px;
+        gap: 12px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .skills-page .skills-items>img {
+        height: 36px;
+        width: 36px;
+        object-fit: scale-down;
+
+
+    }
+
+    .skills-page .skills-items {
+        border: #021526 solid 1px;
+        height: 48px;
+        width: 48px;
+        border-radius: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F5EDED;
+    }
+
+    .skills-page .skill-name>p {
+        color: white;
+        font-weight: 300;
+        font-size: 15px;
+    }
+
+    .skills-page .skills-title>p {
+        color: white;
+        font-size: 56px;
+        font-weight: 400;
+    }
+
+
+
+
+    .project-page {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100vw;
+    }
+
+    .project-page .swiper {
+        height: 1000px;
+        width: 80vw;
+    }
+
+    .project-page .swiper-slide {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 0.1fr;
+        gap: 10px;
+        height: 100%;
+        width: 80vw;
+    }
+
+    .project-page .project-image img {
+        height: 300px;
+        width: 300px;
+        border-radius: 2rem;
+    }
+
+    .project-page .project-swiper .swipe-btn {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+
+
+    .contact-page {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-page .contact-title>p {
+        color: white;
+        font-size: 30px;
+    }
+
+    .contact-page .grid-container .name-cv .name p {
+        color: white;
+        font-size: 30px;
+        margin-bottom: 0px;
+        margin-top: 20px;
+        font-weight: 500;
+    }
+
+    .contact-page .grid-container .name-cv .cv-btn {
+        display: inline-flex;
+        padding: 10px 10px 10px 20px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: #6EACDA solid 1px;
+        border-radius: 3rem;
+        text-align: center;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .contact-page .grid-container .email-other {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .contact-page .grid-container {
+        height: 50vh;
+        width: 90%;
+        border: white solid 1px;
+        border-radius: 3rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row: 10fr 0.1fr 10fr;
+    }
+
+    .contact-page .contact-grid-container {
+        display: grid;
+        margin-top: 10px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .contact-page .grid-container .divider {
+        height: 1px;
+        width: 90%;
+        background-color: white;
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+
+    .contact-page .grid-container .email p,
+    .contact-page .grid-container .linkedin p,
+    .contact-page .grid-container .github p {
+        color: white;
+        font-weight: 300;
+        margin-left: 20px;
+        font-size: 12px;
+    }
+
+    .contact-page .grid-container .linkedin svg,
+    .contact-page .grid-container .github svg {
+        height: 20px;    
+    }
+}
+
+/* @media (min-width: 700px) and (max-width: 1500px) {
+    .Home-page {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .navbar {
+        position: fixed;
+        left: 50%;
+        display: none;
+        z-index: 3;
+        transform: translate(-50%, 0%);
+    }
+
+    .Home-page>.grid-container {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        grid-template-rows: 1fr;
+        width: 90%;
+        gap: 30px;
+        // Keep it within the viewport 
+        height: 100%;
+        margin-top: 100px;
+    }
+
+    .Home-page .text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .Home-page .profile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+
+
+
+
+
+
+
+    .about-Page>.grid-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+
+    .about-Page {
+        width: 100%;
+        margin-top: 50px;
+        height: 100%;
+    }
+
+    .about-Page .description {
+        font-size: 18px;
+        font-weight: 200;
+        text-align: justify;
+    }
+
+    .about-Page .education-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 20px;
+    }
+
+    .about-Page .education-grid .education-title {
+        grid-column: span 4;
+    }
+
+
+
+
+
+
+
+
+
+
+    .skills-page {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .skills-page .swiper {
+        width: 80%;
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+
+    .skills-page .skills-title {
+        transform: rotate(0deg);
+        margin-bottom: 0px;
+    }
+
+
+
+
+
+    .project-page {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100vw;
+    }
+
+    .project-page .swiper {
+        height: 500px;
+        width: 80vw;
+    }
+
+    .project-page .swiper-slide {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 0.1fr;
+        // grid-template-rows: 1fr 1fr 0.1fr; 
+        gap: 10px;
+        height: 100%;
+        width: 80vw;
+    }
+
+    .project-page .project-image img {
+        height: 300px;
+        width: 300px;
+        border-radius: 2rem;
+    }
+
+    .project-page .project-swiper .swipe-btn {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+
+
+    .contact-page {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-page .contact-title>p {
+        color: white;
+        font-size: 30px;
+    }
+
+    .contact-page .grid-container .name-cv .name p {
+        color: white;
+        font-size: 30px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        font-weight: 500;
+    }
+
+    .contact-page .grid-container {
+        height: 100%;
+        width: 90vw;
+        border: white solid 1px;
+        border-radius: 3rem;
+        padding: 20px;
+    }
+} */
