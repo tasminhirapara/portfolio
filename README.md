@@ -1,1 +1,1 @@
-Check Out my portfolio here -> https://harshkaretiya.github.io/Portfolio/
+Check Out my portfolio here -> https://tasminhirapara.github.io/portfolio/
